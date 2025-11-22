@@ -1,4 +1,6 @@
 import EventBus from '../../utils/EventBus.js';
+import DataValidator from '../../utils/DataValidator.js';
+import ErrorHandler from '../../utils/ErrorHandler.js';
 
 /**
  * ProgressTracker - Tracks and persists student learning progress
@@ -20,11 +22,32 @@ export class ProgressTracker {
       const data = localStorage.getItem(this.storageKey);
 
       if (data) {
+        // Validate JSON structure
+        if (!DataValidator.isValidJSON(data)) {
+          ErrorHandler.reportError(new Error('Invalid JSON in localStorage'), {
+            key: this.storageKey
+          });
+          return this.createDefaultProfile();
+        }
+
         const profile = JSON.parse(data);
-        return this.migrateProfile(profile);
+
+        // Validate profile structure
+        const validation = DataValidator.validateProfile(profile);
+        if (!validation.valid) {
+          ErrorHandler.reportError(new Error(`Invalid profile data: ${validation.error}`), {
+            key: this.storageKey
+          });
+          return this.createDefaultProfile();
+        }
+
+        // Sanitize and migrate
+        const sanitized = DataValidator.sanitizeObject(profile);
+        return this.migrateProfile(sanitized);
       }
     } catch (error) {
       console.error('ProgressTracker: Error loading profile', error);
+      ErrorHandler.reportError(error, { context: 'ProgressTracker.loadProfile' });
     }
 
     // Return default profile
@@ -130,10 +153,31 @@ export class ProgressTracker {
   saveProfile() {
     try {
       this.profile.lastPlayed = new Date().toISOString();
-      localStorage.setItem(this.storageKey, JSON.stringify(this.profile));
+
+      // Validate profile before saving
+      const validation = DataValidator.validateProfile(this.profile);
+      if (!validation.valid) {
+        ErrorHandler.reportError(new Error(`Cannot save invalid profile: ${validation.error}`));
+        return;
+      }
+
+      // Sanitize profile data
+      const sanitized = DataValidator.sanitizeObject(this.profile);
+      const jsonData = JSON.stringify(sanitized);
+
+      // Check storage quota
+      const quotaCheck = DataValidator.checkStorageQuota(this.storageKey, jsonData);
+      if (!quotaCheck.valid) {
+        ErrorHandler.reportError(new Error(`Storage error: ${quotaCheck.error}`));
+        return;
+      }
+
+      // Save to localStorage
+      localStorage.setItem(this.storageKey, jsonData);
       EventBus.emit('progress:saved', { profile: this.profile });
     } catch (error) {
       console.error('ProgressTracker: Error saving profile', error);
+      ErrorHandler.reportError(error, { context: 'ProgressTracker.saveProfile' });
     }
   }
 
