@@ -117,6 +117,9 @@ export class BaseGameScene extends Phaser.Scene {
     // Pause button
     this.createPauseButton();
 
+    // Close button
+    this.createCloseButton();
+
     // Add to a UI container for easy management
     this.uiContainer = this.add.container(0, 0);
     this.uiContainer.setDepth(1000); // Always on top
@@ -139,6 +142,148 @@ export class BaseGameScene extends Phaser.Scene {
     pauseBtn.on('pointerdown', () => this.togglePause());
 
     this.pauseButton = pauseBtn;
+  }
+
+  /**
+   * Create close/exit button
+   */
+  createCloseButton() {
+    const { width } = this.cameras.main;
+
+    const closeBtn = this.add.text(width - 20, 120, '✖', {
+      fontSize: '32px',
+      color: '#FFFFFF',
+      stroke: '#000000',
+      strokeThickness: 3
+    }).setOrigin(1, 0);
+
+    closeBtn.setInteractive({ useHandCursor: true });
+    closeBtn.on('pointerdown', () => this.confirmExit());
+
+    // Hover effect
+    closeBtn.on('pointerover', () => {
+      closeBtn.setColor('#FF0000');
+    });
+
+    closeBtn.on('pointerout', () => {
+      closeBtn.setColor('#FFFFFF');
+    });
+
+    this.closeButton = closeBtn;
+  }
+
+  /**
+   * Show confirmation dialog before exiting
+   */
+  confirmExit() {
+    const { width, height } = this.cameras.main;
+
+    // Pause the game
+    this.isPaused = true;
+    if (this.physics && this.physics.world) {
+      this.physics.pause();
+    }
+
+    // Create confirmation overlay
+    this.confirmOverlay = this.add.container(0, 0).setDepth(2500);
+
+    const overlay = this.add.rectangle(0, 0, width, height, 0x000000, 0.85)
+      .setOrigin(0, 0);
+
+    const confirmText = this.add.text(width / 2, height / 2 - 60, 'Exit Game?', {
+      fontSize: '48px',
+      fontFamily: 'Arial',
+      color: '#FFFFFF'
+    }).setOrigin(0.5);
+
+    const warningText = this.add.text(width / 2, height / 2, 'Your progress will be lost!', {
+      fontSize: '24px',
+      fontFamily: 'Arial',
+      color: '#FFFF00'
+    }).setOrigin(0.5);
+
+    // Yes button
+    const yesBtn = this.add.text(width / 2 - 80, height / 2 + 80, 'Yes, Exit', {
+      fontSize: '24px',
+      fontFamily: 'Arial',
+      color: '#FFFFFF',
+      backgroundColor: '#D32F2F',
+      padding: { x: 20, y: 10 }
+    }).setOrigin(0.5)
+      .setInteractive({ useHandCursor: true });
+
+    yesBtn.on('pointerover', () => {
+      yesBtn.setScale(1.1);
+    });
+
+    yesBtn.on('pointerout', () => {
+      yesBtn.setScale(1);
+    });
+
+    yesBtn.on('pointerdown', () => {
+      this.sound.play('sfx_click');
+      this.exitToHub();
+    });
+
+    // No button (cancel)
+    const noBtn = this.add.text(width / 2 + 80, height / 2 + 80, 'Cancel', {
+      fontSize: '24px',
+      fontFamily: 'Arial',
+      color: '#FFFFFF',
+      backgroundColor: '#4CAF50',
+      padding: { x: 20, y: 10 }
+    }).setOrigin(0.5)
+      .setInteractive({ useHandCursor: true });
+
+    noBtn.on('pointerover', () => {
+      noBtn.setScale(1.1);
+    });
+
+    noBtn.on('pointerout', () => {
+      noBtn.setScale(1);
+    });
+
+    noBtn.on('pointerdown', () => {
+      this.sound.play('sfx_click');
+      this.cancelExit();
+    });
+
+    this.confirmOverlay.add([overlay, confirmText, warningText, yesBtn, noBtn]);
+  }
+
+  /**
+   * Cancel exit and resume game
+   */
+  cancelExit() {
+    if (this.confirmOverlay) {
+      this.confirmOverlay.destroy();
+      this.confirmOverlay = null;
+    }
+
+    // Resume game
+    this.isPaused = false;
+    if (this.physics && this.physics.world) {
+      this.physics.resume();
+    }
+  }
+
+  /**
+   * Exit to GameHub
+   */
+  exitToHub() {
+    // Stop timer
+    if (this.timerEvent) {
+      this.timerEvent.remove();
+    }
+
+    // Emit exit event
+    EventBus.emit('game:exit', {
+      scene: this.scene.key,
+      score: this.score
+    });
+
+    // Return to hub
+    this.scene.start('GameHubScene');
   }
 
   /**
