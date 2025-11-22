@@ -58,6 +58,9 @@ class EventBus extends Phaser.Events.EventEmitter {
   }
 }
 
+// Export class for testing
+export { EventBus };
+
 // Export singleton instance
 export const eventBus = new EventBus();
 export default eventBus;
