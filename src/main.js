@@ -12,7 +12,11 @@ import { PreloadScene } from '@scenes/PreloadScene';
 import { MenuScene } from '@scenes/MenuScene';
 import { GameScene } from '@scenes/GameScene';
 import { GameHubScene } from './scenes/kannada/GameHubScene';
+import { ProfileScene } from './scenes/kannada/ProfileScene';
+import { SettingsScene } from './scenes/kannada/SettingsScene';
 import { AksharaPopScene } from './scenes/kannada/alphabet/AksharaPopScene';
+import { LetterTracingScene } from './scenes/kannada/alphabet/LetterTracingScene';
+import { AnimalSafariScene } from './scenes/kannada/vocabulary/AnimalSafariScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -211,7 +215,11 @@ function initGame() {
       MenuScene,
       GameScene,
       GameHubScene,
-      AksharaPopScene
+      ProfileScene,
+      SettingsScene,
+      AksharaPopScene,
+      LetterTracingScene,
+      AnimalSafariScene
     ]
   };
 

@@ -138,7 +138,8 @@ export class GameHubScene extends Phaser.Scene {
         icon: '🔤',
         color: 0x4CAF50,
         games: [
-          { name: 'Akshara Pop', scene: 'AksharaPopScene' }
+          { name: 'Akshara Pop', scene: 'AksharaPopScene' },
+          { name: 'Letter Tracing', scene: 'LetterTracingScene' }
         ]
       },
       {
@@ -146,7 +147,9 @@ export class GameHubScene extends Phaser.Scene {
         nameKannada: 'ಶಬ್ದಭಂಡಾರ ಆಟಗಳು',
         icon: '📚',
         color: 0x2196F3,
-        games: []
+        games: [
+          { name: 'Animal Safari', scene: 'AnimalSafariScene' }
+        ]
       },
       {
         name: 'Word Games',
@@ -268,8 +271,7 @@ export class GameHubScene extends Phaser.Scene {
       bgColor: 0x9C27B0,
       onClick: () => {
         this.audioManager.playClick();
-        // this.scene.start('ProfileScene');
-        console.log('Profile screen coming soon!');
+        this.scene.start('ProfileScene');
       }
     });
 
@@ -282,8 +284,7 @@ export class GameHubScene extends Phaser.Scene {
       bgColor: 0xFF9800,
       onClick: () => {
         this.audioManager.playClick();
-        // this.scene.start('RewardsScene');
-        console.log('Rewards screen coming soon!');
+        this.scene.start('ProfileScene');
       }
     });
 
@@ -296,8 +297,7 @@ export class GameHubScene extends Phaser.Scene {
       bgColor: 0x607D8B,
       onClick: () => {
         this.audioManager.playClick();
-        // this.scene.start('SettingsScene');
-        console.log('Settings screen coming soon!');
+        this.scene.start('SettingsScene');
       }
     });
   }
