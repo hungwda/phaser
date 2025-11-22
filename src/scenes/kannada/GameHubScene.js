@@ -154,7 +154,9 @@ export class GameHubScene extends Phaser.Scene {
           { name: 'Fruit Basket', scene: 'FruitBasketScene' },
           { name: 'Color Splash', scene: 'ColorSplashScene' },
           { name: 'Number Rockets', scene: 'NumberRocketsScene' },
-          { name: 'Vegetable Garden', scene: 'VegetableGardenScene' }
+          { name: 'Vegetable Garden', scene: 'VegetableGardenScene' },
+          { name: 'Body Parts Robot', scene: 'BodyPartsRobotScene' },
+          { name: 'Family Tree', scene: 'FamilyTreeScene' }
         ]
       },
       {
@@ -162,7 +164,10 @@ export class GameHubScene extends Phaser.Scene {
         nameKannada: 'ಪದ ಆಟಗಳು',
         icon: '✍️',
         color: 0xFF9800,
-        games: []
+        games: [
+          { name: 'Letter Bridge', scene: 'LetterBridgeScene' },
+          { name: 'Spell Picture', scene: 'SpellPictureScene' }
+        ]
       },
       {
         name: 'Sentence Games',

@@ -23,6 +23,10 @@ import { FruitBasketScene } from './scenes/kannada/vocabulary/FruitBasketScene';
 import { ColorSplashScene } from './scenes/kannada/vocabulary/ColorSplashScene';
 import { NumberRocketsScene } from './scenes/kannada/vocabulary/NumberRocketsScene';
 import { VegetableGardenScene } from './scenes/kannada/vocabulary/VegetableGardenScene';
+import { BodyPartsRobotScene } from './scenes/kannada/vocabulary/BodyPartsRobotScene';
+import { FamilyTreeScene } from './scenes/kannada/vocabulary/FamilyTreeScene';
+import { LetterBridgeScene } from './scenes/kannada/words/LetterBridgeScene';
+import { SpellPictureScene } from './scenes/kannada/words/SpellPictureScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -231,7 +235,11 @@ function initGame() {
       FruitBasketScene,
       ColorSplashScene,
       NumberRocketsScene,
-      VegetableGardenScene
+      VegetableGardenScene,
+      BodyPartsRobotScene,
+      FamilyTreeScene,
+      LetterBridgeScene,
+      SpellPictureScene
     ]
   };
 

@@ -1,0 +1,116 @@
+{
+  "category": "simple_words",
+  "categoryKannada": "ಸರಳ ಪದಗಳು",
+  "items": [
+    {
+      "id": "word_amma",
+      "word": "ಅಮ್ಮ",
+      "english": "mother",
+      "transliteration": "amma",
+      "letters": ["ಅ", "ಮ್", "ಮ"],
+      "audioPath": "audio/pronunciations/words/amma.mp3",
+      "imagePath": "images/vocabulary/family/mother.png",
+      "difficulty": "beginner",
+      "hint": "Family member who cares for you"
+    },
+    {
+      "id": "word_appa",
+      "word": "ಅಪ್ಪ",
+      "english": "father",
+      "transliteration": "appa",
+      "letters": ["ಅ", "ಪ್", "ಪ"],
+      "audioPath": "audio/pronunciations/words/appa.mp3",
+      "imagePath": "images/vocabulary/family/father.png",
+      "difficulty": "beginner",
+      "hint": "Male parent"
+    },
+    {
+      "id": "word_mara",
+      "word": "ಮರ",
+      "english": "tree",
+      "transliteration": "mara",
+      "letters": ["ಮ", "ರ"],
+      "audioPath": "audio/pronunciations/words/mara.mp3",
+      "imagePath": "images/vocabulary/nature/tree.png",
+      "difficulty": "beginner",
+      "hint": "Tall plant with branches"
+    },
+    {
+      "id": "word_neer",
+      "word": "ನೀರು",
+      "english": "water",
+      "transliteration": "neeru",
+      "letters": ["ನೀ", "ರು"],
+      "audioPath": "audio/pronunciations/words/neeru.mp3",
+      "imagePath": "images/vocabulary/nature/water.png",
+      "difficulty": "beginner",
+      "hint": "What you drink"
+    },
+    {
+      "id": "word_huli",
+      "word": "ಹುಲಿ",
+      "english": "tiger",
+      "transliteration": "huli",
+      "letters": ["ಹು", "ಲಿ"],
+      "audioPath": "audio/pronunciations/words/huli.mp3",
+      "imagePath": "images/vocabulary/animals/tiger.png",
+      "difficulty": "beginner",
+      "hint": "Big striped cat"
+    },
+    {
+      "id": "word_hoo",
+      "word": "ಹೂ",
+      "english": "flower",
+      "transliteration": "hoo",
+      "letters": ["ಹೂ"],
+      "audioPath": "audio/pronunciations/words/hoo.mp3",
+      "imagePath": "images/vocabulary/nature/flower.png",
+      "difficulty": "beginner",
+      "hint": "Beautiful plant part"
+    },
+    {
+      "id": "word_mane",
+      "word": "ಮನೆ",
+      "english": "house",
+      "transliteration": "mane",
+      "letters": ["ಮ", "ನೆ"],
+      "audioPath": "audio/pronunciations/words/mane.mp3",
+      "imagePath": "images/vocabulary/places/house.png",
+      "difficulty": "intermediate",
+      "hint": "Where you live"
+    },
+    {
+      "id": "word_ball",
+      "word": "ಚೆಂಡು",
+      "english": "ball",
+      "transliteration": "chendu",
+      "letters": ["ಚೆಂ", "ಡು"],
+      "audioPath": "audio/pronunciations/words/chendu.mp3",
+      "imagePath": "images/vocabulary/toys/ball.png",
+      "difficulty": "intermediate",
+      "hint": "Round toy for playing"
+    },
+    {
+      "id": "word_pustaka",
+      "word": "ಪುಸ್ತಕ",
+      "english": "book",
+      "transliteration": "pustaka",
+      "letters": ["ಪು", "ಸ್", "ತ", "ಕ"],
+      "audioPath": "audio/pronunciations/words/pustaka.mp3",
+      "imagePath": "images/vocabulary/school/book.png",
+      "difficulty": "intermediate",
+      "hint": "What you read"
+    },
+    {
+      "id": "word_school",
+      "word": "ಶಾಲೆ",
+      "english": "school",
+      "transliteration": "shaale",
+      "letters": ["ಶಾ", "ಲೆ"],
+      "audioPath": "audio/pronunciations/words/shaale.mp3",
+      "imagePath": "images/vocabulary/places/school.png",
+      "difficulty": "intermediate",
+      "hint": "Where you learn"
+    }
+  ]
+}

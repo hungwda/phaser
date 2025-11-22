@@ -1,0 +1,78 @@
+{
+  "category": "family",
+  "categoryKannada": "ಕುಟುಂಬ",
+  "items": [
+    {
+      "id": "family_mother",
+      "kannada": "ಅಮ್ಮ",
+      "english": "mother",
+      "transliteration": "amma",
+      "audioPath": "audio/pronunciations/words/amma.mp3",
+      "imagePath": "images/vocabulary/family/mother.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_father",
+      "kannada": "ಅಪ್ಪ",
+      "english": "father",
+      "transliteration": "appa",
+      "audioPath": "audio/pronunciations/words/appa.mp3",
+      "imagePath": "images/vocabulary/family/father.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_brother",
+      "kannada": "ಅಣ್ಣ",
+      "english": "elder brother",
+      "transliteration": "anna",
+      "audioPath": "audio/pronunciations/words/anna.mp3",
+      "imagePath": "images/vocabulary/family/brother.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_sister",
+      "kannada": "ಅಕ್ಕ",
+      "english": "elder sister",
+      "transliteration": "akka",
+      "audioPath": "audio/pronunciations/words/akka.mp3",
+      "imagePath": "images/vocabulary/family/sister.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_grandmother",
+      "kannada": "ಅಜ್ಜಿ",
+      "english": "grandmother",
+      "transliteration": "ajji",
+      "audioPath": "audio/pronunciations/words/ajji.mp3",
+      "imagePath": "images/vocabulary/family/grandmother.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_grandfather",
+      "kannada": "ಅಜ್ಜ",
+      "english": "grandfather",
+      "transliteration": "ajja",
+      "audioPath": "audio/pronunciations/words/ajja.mp3",
+      "imagePath": "images/vocabulary/family/grandfather.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "family_uncle",
+      "kannada": "ಮಾವ",
+      "english": "uncle",
+      "transliteration": "maava",
+      "audioPath": "audio/pronunciations/words/maava.mp3",
+      "imagePath": "images/vocabulary/family/uncle.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "family_aunt",
+      "kannada": "ಅತ್ತೆ",
+      "english": "aunt",
+      "transliteration": "atte",
+      "audioPath": "audio/pronunciations/words/atte.mp3",
+      "imagePath": "images/vocabulary/family/aunt.png",
+      "difficulty": "intermediate"
+    }
+  ]
+}

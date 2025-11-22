@@ -1,0 +1,96 @@
+{
+  "category": "body_parts",
+  "categoryKannada": "ದೇಹದ ಭಾಗಗಳು",
+  "items": [
+    {
+      "id": "body_head",
+      "kannada": "ತಲೆ",
+      "english": "head",
+      "transliteration": "tale",
+      "audioPath": "audio/pronunciations/words/tale.mp3",
+      "imagePath": "images/vocabulary/body_parts/head.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_eye",
+      "kannada": "ಕಣ್ಣು",
+      "english": "eye",
+      "transliteration": "kannu",
+      "audioPath": "audio/pronunciations/words/kannu.mp3",
+      "imagePath": "images/vocabulary/body_parts/eye.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_nose",
+      "kannada": "ಮೂಗು",
+      "english": "nose",
+      "transliteration": "moogu",
+      "audioPath": "audio/pronunciations/words/moogu.mp3",
+      "imagePath": "images/vocabulary/body_parts/nose.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_mouth",
+      "kannada": "ಬಾಯಿ",
+      "english": "mouth",
+      "transliteration": "baayi",
+      "audioPath": "audio/pronunciations/words/baayi.mp3",
+      "imagePath": "images/vocabulary/body_parts/mouth.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_ear",
+      "kannada": "ಕಿವಿ",
+      "english": "ear",
+      "transliteration": "kivi",
+      "audioPath": "audio/pronunciations/words/kivi.mp3",
+      "imagePath": "images/vocabulary/body_parts/ear.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_hand",
+      "kannada": "ಕೈ",
+      "english": "hand",
+      "transliteration": "kai",
+      "audioPath": "audio/pronunciations/words/kai.mp3",
+      "imagePath": "images/vocabulary/body_parts/hand.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_leg",
+      "kannada": "ಕಾಲು",
+      "english": "leg",
+      "transliteration": "kaalu",
+      "audioPath": "audio/pronunciations/words/kaalu.mp3",
+      "imagePath": "images/vocabulary/body_parts/leg.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "body_finger",
+      "kannada": "ಬೆರಳು",
+      "english": "finger",
+      "transliteration": "beralu",
+      "audioPath": "audio/pronunciations/words/beralu.mp3",
+      "imagePath": "images/vocabulary/body_parts/finger.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "body_shoulder",
+      "kannada": "ಭುಜ",
+      "english": "shoulder",
+      "transliteration": "bhuja",
+      "audioPath": "audio/pronunciations/words/bhuja.mp3",
+      "imagePath": "images/vocabulary/body_parts/shoulder.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "body_stomach",
+      "kannada": "ಹೊಟ್ಟೆ",
+      "english": "stomach",
+      "transliteration": "hotte",
+      "audioPath": "audio/pronunciations/words/hotte.mp3",
+      "imagePath": "images/vocabulary/body_parts/stomach.png",
+      "difficulty": "intermediate"
+    }
+  ]
+}
