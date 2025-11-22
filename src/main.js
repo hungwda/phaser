@@ -32,6 +32,22 @@ import { SentenceTrainScene } from './scenes/kannada/sentences/SentenceTrainScen
 import { QuestionAnswerScene } from './scenes/kannada/sentences/QuestionAnswerScene';
 import { ActionVerbsScene } from './scenes/kannada/sentences/ActionVerbsScene';
 import { StorySequencerScene } from './scenes/kannada/sentences/StorySequencerScene';
+import { SpinningWheelScene } from './scenes/kannada/alphabet/SpinningWheelScene';
+import { WordFactoryScene } from './scenes/kannada/words/WordFactoryScene';
+import { MissingLetterScene } from './scenes/kannada/words/MissingLetterScene';
+import { CompoundWordsScene } from './scenes/kannada/words/CompoundWordsScene';
+import { StoryBookScene } from './scenes/kannada/reading/StoryBookScene';
+import { ReadingRaceScene } from './scenes/kannada/reading/ReadingRaceScene';
+import { RhymeTimeScene } from './scenes/kannada/reading/RhymeTimeScene';
+import { DialogueDramaScene } from './scenes/kannada/reading/DialogueDramaScene';
+import { EchoGameScene } from './scenes/kannada/listening/EchoGameScene';
+import { SoundSafariScene } from './scenes/kannada/listening/SoundSafariScene';
+import { WhichWordScene } from './scenes/kannada/listening/WhichWordScene';
+import { TongueTwisterScene } from './scenes/kannada/listening/TongueTwisterScene';
+import { FestivalFunScene } from './scenes/kannada/cultural/FestivalFunScene';
+import { MarketShoppingScene } from './scenes/kannada/cultural/MarketShoppingScene';
+import { ClassroomScene } from './scenes/kannada/cultural/ClassroomScene';
+import { DailyRoutineScene } from './scenes/kannada/cultural/DailyRoutineScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -249,7 +265,23 @@ function initGame() {
       SentenceTrainScene,
       QuestionAnswerScene,
       ActionVerbsScene,
-      StorySequencerScene
+      StorySequencerScene,
+      SpinningWheelScene,
+      WordFactoryScene,
+      MissingLetterScene,
+      CompoundWordsScene,
+      StoryBookScene,
+      ReadingRaceScene,
+      RhymeTimeScene,
+      DialogueDramaScene,
+      EchoGameScene,
+      SoundSafariScene,
+      WhichWordScene,
+      TongueTwisterScene,
+      FestivalFunScene,
+      MarketShoppingScene,
+      ClassroomScene,
+      DailyRoutineScene
     ]
   };
 
