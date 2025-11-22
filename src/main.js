@@ -12,6 +12,7 @@ import { PreloadScene } from '@scenes/PreloadScene';
 import { MenuScene } from '@scenes/MenuScene';
 import { GameScene } from '@scenes/GameScene';
 import { GameHubScene } from './scenes/kannada/GameHubScene';
+import { GameSelectionScene } from './scenes/kannada/GameSelectionScene';
 import { ProfileScene } from './scenes/kannada/ProfileScene';
 import { SettingsScene } from './scenes/kannada/SettingsScene';
 import { AksharaPopScene } from './scenes/kannada/alphabet/AksharaPopScene';
@@ -229,6 +230,7 @@ function initGame() {
       MenuScene,
       GameScene,
       GameHubScene,
+      GameSelectionScene,
       ProfileScene,
       SettingsScene,
       AksharaPopScene,

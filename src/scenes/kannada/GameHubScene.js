@@ -101,10 +101,10 @@ export class GameHubScene extends Phaser.Scene {
     const { width } = this.cameras.main;
     const summary = this.progressTracker.getProfileSummary();
 
-    const container = this.add.container(width / 2, 150);
+    const container = this.add.container(width / 2, 140);
 
     // Background
-    const bg = this.add.rectangle(0, 0, 700, 100, 0x000000, 0.3);
+    const bg = this.add.rectangle(0, 0, 700, 80, 0x000000, 0.3);
     bg.setStrokeStyle(2, 0xFFD700);
 
     // Stats
@@ -183,8 +183,8 @@ export class GameHubScene extends Phaser.Scene {
       }
     ];
 
-    const startY = 280;
-    const spacingY = 100;
+    const startY = 240;
+    const spacingY = 85;
 
     categories.forEach((category, index) => {
       const y = startY + (index * spacingY);
@@ -259,10 +259,13 @@ export class GameHubScene extends Phaser.Scene {
         container.on('pointerdown', () => {
           this.audioManager.playClick();
 
-          // For now, launch the first game in category
-          if (category.games[0]) {
-            this.startGame(category.games[0].scene);
-          }
+          // Navigate to game selection scene
+          this.scene.start('GameSelectionScene', {
+            category: category,
+            progressTracker: this.progressTracker,
+            rewardSystem: this.rewardSystem,
+            learningEngine: this.learningEngine
+          });
         });
       } else {
         // Disabled appearance
@@ -279,7 +282,7 @@ export class GameHubScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
 
     // Profile button
-    const profileBtn = new Button(this, width / 2 - 220, height - 60, {
+    const profileBtn = new Button(this, width / 2 - 220, height - 40, {
       text: 'Profile',
       icon: '👤',
       width: 150,
@@ -292,7 +295,7 @@ export class GameHubScene extends Phaser.Scene {
     });
 
     // Achievements button
-    const achievementsBtn = new Button(this, width / 2 - 50, height - 60, {
+    const achievementsBtn = new Button(this, width / 2 - 50, height - 40, {
       text: 'Rewards',
       icon: '🏆',
       width: 150,
@@ -305,7 +308,7 @@ export class GameHubScene extends Phaser.Scene {
     });
 
     // Settings button
-    const settingsBtn = new Button(this, width / 2 + 120, height - 60, {
+    const settingsBtn = new Button(this, width / 2 + 120, height - 40, {
       text: 'Settings',
       icon: '⚙️',
       width: 150,
