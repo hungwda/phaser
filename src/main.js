@@ -16,7 +16,9 @@ import { ProfileScene } from './scenes/kannada/ProfileScene';
 import { SettingsScene } from './scenes/kannada/SettingsScene';
 import { AksharaPopScene } from './scenes/kannada/alphabet/AksharaPopScene';
 import { LetterTracingScene } from './scenes/kannada/alphabet/LetterTracingScene';
+import { AlphabetRainScene } from './scenes/kannada/alphabet/AlphabetRainScene';
 import { AnimalSafariScene } from './scenes/kannada/vocabulary/AnimalSafariScene';
+import { FruitBasketScene } from './scenes/kannada/vocabulary/FruitBasketScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -219,7 +221,9 @@ function initGame() {
       SettingsScene,
       AksharaPopScene,
       LetterTracingScene,
-      AnimalSafariScene
+      AlphabetRainScene,
+      AnimalSafariScene,
+      FruitBasketScene
     ]
   };
 
