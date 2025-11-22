@@ -1,0 +1,96 @@
+{
+  "category": "vegetables",
+  "categoryKannada": "ತರಕಾರಿಗಳು",
+  "items": [
+    {
+      "id": "veg_tomato",
+      "kannada": "ಟೊಮೇಟೊ",
+      "english": "tomato",
+      "transliteration": "tomato",
+      "audioPath": "audio/pronunciations/words/tomato.mp3",
+      "imagePath": "images/vocabulary/vegetables/tomato.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "veg_potato",
+      "kannada": "ಆಲೂಗಡ್ಡೆ",
+      "english": "potato",
+      "transliteration": "aalugadde",
+      "audioPath": "audio/pronunciations/words/aalugadde.mp3",
+      "imagePath": "images/vocabulary/vegetables/potato.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "veg_onion",
+      "kannada": "ಈರುಳ್ಳಿ",
+      "english": "onion",
+      "transliteration": "eerulli",
+      "audioPath": "audio/pronunciations/words/eerulli.mp3",
+      "imagePath": "images/vocabulary/vegetables/onion.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "veg_carrot",
+      "kannada": "ಕ್ಯಾರೆಟ್",
+      "english": "carrot",
+      "transliteration": "carrot",
+      "audioPath": "audio/pronunciations/words/carrot.mp3",
+      "imagePath": "images/vocabulary/vegetables/carrot.png",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "veg_cauliflower",
+      "kannada": "ಹೂಕೋಸು",
+      "english": "cauliflower",
+      "transliteration": "hookosu",
+      "audioPath": "audio/pronunciations/words/hookosu.mp3",
+      "imagePath": "images/vocabulary/vegetables/cauliflower.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "veg_cabbage",
+      "kannada": "ಎಲೆಕೋಸು",
+      "english": "cabbage",
+      "transliteration": "elekosu",
+      "audioPath": "audio/pronunciations/words/elekosu.mp3",
+      "imagePath": "images/vocabulary/vegetables/cabbage.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "veg_brinjal",
+      "kannada": "ಬದನೆಕಾಯಿ",
+      "english": "brinjal",
+      "transliteration": "badanekayi",
+      "audioPath": "audio/pronunciations/words/badanekayi.mp3",
+      "imagePath": "images/vocabulary/vegetables/brinjal.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "veg_peas",
+      "kannada": "ಬಟಾಣಿ",
+      "english": "peas",
+      "transliteration": "bataani",
+      "audioPath": "audio/pronunciations/words/bataani.mp3",
+      "imagePath": "images/vocabulary/vegetables/peas.png",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "veg_spinach",
+      "kannada": "ಪಾಲಕ",
+      "english": "spinach",
+      "transliteration": "paalaka",
+      "audioPath": "audio/pronunciations/words/paalaka.mp3",
+      "imagePath": "images/vocabulary/vegetables/spinach.png",
+      "difficulty": "advanced"
+    },
+    {
+      "id": "veg_radish",
+      "kannada": "ಮೂಲಂಗಿ",
+      "english": "radish",
+      "transliteration": "moolangi",
+      "audioPath": "audio/pronunciations/words/moolangi.mp3",
+      "imagePath": "images/vocabulary/vegetables/radish.png",
+      "difficulty": "advanced"
+    }
+  ]
+}

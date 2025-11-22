@@ -1,0 +1,116 @@
+{
+  "category": "numbers",
+  "categoryKannada": "ಸಂಖ್ಯೆಗಳು",
+  "items": [
+    {
+      "id": "number_0",
+      "digit": "೦",
+      "word": "ಸೊನ್ನೆ",
+      "english": "zero",
+      "transliteration": "sonne",
+      "value": 0,
+      "audioPath": "audio/pronunciations/words/sonne.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_1",
+      "digit": "೧",
+      "word": "ಒಂದು",
+      "english": "one",
+      "transliteration": "ondu",
+      "value": 1,
+      "audioPath": "audio/pronunciations/words/ondu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_2",
+      "digit": "೨",
+      "word": "ಎರಡು",
+      "english": "two",
+      "transliteration": "eradu",
+      "value": 2,
+      "audioPath": "audio/pronunciations/words/eradu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_3",
+      "digit": "೩",
+      "word": "ಮೂರು",
+      "english": "three",
+      "transliteration": "mooru",
+      "value": 3,
+      "audioPath": "audio/pronunciations/words/mooru.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_4",
+      "digit": "೪",
+      "word": "ನಾಲ್ಕು",
+      "english": "four",
+      "transliteration": "naalku",
+      "value": 4,
+      "audioPath": "audio/pronunciations/words/naalku.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_5",
+      "digit": "೫",
+      "word": "ಐದು",
+      "english": "five",
+      "transliteration": "aidu",
+      "value": 5,
+      "audioPath": "audio/pronunciations/words/aidu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_6",
+      "digit": "೬",
+      "word": "ಆರು",
+      "english": "six",
+      "transliteration": "aaru",
+      "value": 6,
+      "audioPath": "audio/pronunciations/words/aaru.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_7",
+      "digit": "೭",
+      "word": "ಏಳು",
+      "english": "seven",
+      "transliteration": "elu",
+      "value": 7,
+      "audioPath": "audio/pronunciations/words/elu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_8",
+      "digit": "೮",
+      "word": "ಎಂಟು",
+      "english": "eight",
+      "transliteration": "entu",
+      "value": 8,
+      "audioPath": "audio/pronunciations/words/entu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_9",
+      "digit": "೯",
+      "word": "ಒಂಬತ್ತು",
+      "english": "nine",
+      "transliteration": "ombattu",
+      "value": 9,
+      "audioPath": "audio/pronunciations/words/ombattu.mp3",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "number_10",
+      "digit": "೧೦",
+      "word": "ಹತ್ತು",
+      "english": "ten",
+      "transliteration": "hattu",
+      "value": 10,
+      "audioPath": "audio/pronunciations/words/hattu.mp3",
+      "difficulty": "beginner"
+    }
+  ]
+}

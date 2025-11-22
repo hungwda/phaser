@@ -1,0 +1,209 @@
+{
+  "vowels": [
+    {
+      "id": "ka_vowel_a",
+      "letter": "ಅ",
+      "transliteration": "a",
+      "pronunciation": "ah",
+      "audioPath": "audio/pronunciations/letters/a.mp3",
+      "category": "vowel",
+      "order": 1,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಅಮ್ಮ",
+          "meaning": "mother",
+          "audioPath": "audio/pronunciations/words/amma.mp3",
+          "imagePath": "images/vocabulary/family/mother.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_vowel_aa",
+      "letter": "ಆ",
+      "transliteration": "aa",
+      "pronunciation": "aah",
+      "audioPath": "audio/pronunciations/letters/aa.mp3",
+      "category": "vowel",
+      "order": 2,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಆನೆ",
+          "meaning": "elephant",
+          "audioPath": "audio/pronunciations/words/aane.mp3",
+          "imagePath": "images/vocabulary/animals/elephant.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_vowel_i",
+      "letter": "ಇ",
+      "transliteration": "i",
+      "pronunciation": "ee",
+      "audioPath": "audio/pronunciations/letters/i.mp3",
+      "category": "vowel",
+      "order": 3,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಇಲಿ",
+          "meaning": "mouse",
+          "audioPath": "audio/pronunciations/words/ili.mp3",
+          "imagePath": "images/vocabulary/animals/mouse.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_vowel_ii",
+      "letter": "ಈ",
+      "transliteration": "ii",
+      "pronunciation": "eee",
+      "audioPath": "audio/pronunciations/letters/ii.mp3",
+      "category": "vowel",
+      "order": 4,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಈಚಲು",
+          "meaning": "onion",
+          "audioPath": "audio/pronunciations/words/eechalu.mp3",
+          "imagePath": "images/vocabulary/vegetables/onion.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_vowel_u",
+      "letter": "ಉ",
+      "transliteration": "u",
+      "pronunciation": "oo",
+      "audioPath": "audio/pronunciations/letters/u.mp3",
+      "category": "vowel",
+      "order": 5,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಉದ್ಯಾನ",
+          "meaning": "garden",
+          "audioPath": "audio/pronunciations/words/udyaana.mp3",
+          "imagePath": "images/vocabulary/places/garden.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_vowel_uu",
+      "letter": "ಊ",
+      "transliteration": "uu",
+      "pronunciation": "ooo",
+      "audioPath": "audio/pronunciations/letters/uu.mp3",
+      "category": "vowel",
+      "order": 6,
+      "difficulty": "beginner",
+      "examples": [
+        {
+          "word": "ಊಟ",
+          "meaning": "meal",
+          "audioPath": "audio/pronunciations/words/oota.mp3",
+          "imagePath": "images/vocabulary/food/meal.png"
+        }
+      ]
+    }
+  ],
+  "consonants": [
+    {
+      "id": "ka_consonant_ka",
+      "letter": "ಕ",
+      "transliteration": "ka",
+      "pronunciation": "kah",
+      "audioPath": "audio/pronunciations/letters/ka.mp3",
+      "category": "consonant",
+      "order": 1,
+      "difficulty": "beginner",
+      "combinations": ["ಕಾ", "ಕಿ", "ಕೀ", "ಕು", "ಕೂ"],
+      "examples": [
+        {
+          "word": "ಕಮಲ",
+          "meaning": "lotus",
+          "audioPath": "audio/pronunciations/words/kamala.mp3",
+          "imagePath": "images/vocabulary/flowers/lotus.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_consonant_kha",
+      "letter": "ಖ",
+      "transliteration": "kha",
+      "pronunciation": "khah",
+      "audioPath": "audio/pronunciations/letters/kha.mp3",
+      "category": "consonant",
+      "order": 2,
+      "difficulty": "intermediate",
+      "combinations": ["ಖಾ", "ಖಿ", "ಖೀ", "ಖು", "ಖೂ"],
+      "examples": [
+        {
+          "word": "ಖಗೋಳ",
+          "meaning": "astronomy",
+          "audioPath": "audio/pronunciations/words/khagola.mp3",
+          "imagePath": "images/vocabulary/education/astronomy.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_consonant_ga",
+      "letter": "ಗ",
+      "transliteration": "ga",
+      "pronunciation": "gah",
+      "audioPath": "audio/pronunciations/letters/ga.mp3",
+      "category": "consonant",
+      "order": 3,
+      "difficulty": "beginner",
+      "combinations": ["ಗಾ", "ಗಿ", "ಗೀ", "ಗು", "ಗೂ"],
+      "examples": [
+        {
+          "word": "ಗಾಜು",
+          "meaning": "glass",
+          "audioPath": "audio/pronunciations/words/gaaju.mp3",
+          "imagePath": "images/vocabulary/objects/glass.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_consonant_na",
+      "letter": "ನ",
+      "transliteration": "na",
+      "pronunciation": "nah",
+      "audioPath": "audio/pronunciations/letters/na.mp3",
+      "category": "consonant",
+      "order": 4,
+      "difficulty": "beginner",
+      "combinations": ["ನಾ", "ನಿ", "ನೀ", "ನು", "ನೂ"],
+      "examples": [
+        {
+          "word": "ನಾಯಿ",
+          "meaning": "dog",
+          "audioPath": "audio/pronunciations/words/naayi.mp3",
+          "imagePath": "images/vocabulary/animals/dog.png"
+        }
+      ]
+    },
+    {
+      "id": "ka_consonant_ma",
+      "letter": "ಮ",
+      "transliteration": "ma",
+      "pronunciation": "mah",
+      "audioPath": "audio/pronunciations/letters/ma.mp3",
+      "category": "consonant",
+      "order": 5,
+      "difficulty": "beginner",
+      "combinations": ["ಮಾ", "ಮಿ", "ಮೀ", "ಮು", "ಮೂ"],
+      "examples": [
+        {
+          "word": "ಮನೆ",
+          "meaning": "house",
+          "audioPath": "audio/pronunciations/words/mane.mp3",
+          "imagePath": "images/vocabulary/places/house.png"
+        }
+      ]
+    }
+  ]
+}

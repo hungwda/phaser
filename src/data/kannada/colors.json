@@ -1,0 +1,96 @@
+{
+  "category": "colors",
+  "categoryKannada": "ಬಣ್ಣಗಳು",
+  "items": [
+    {
+      "id": "color_red",
+      "kannada": "ಕೆಂಪು",
+      "english": "red",
+      "transliteration": "kempu",
+      "audioPath": "audio/pronunciations/words/kempu.mp3",
+      "hexColor": "#FF0000",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_blue",
+      "kannada": "ನೀಲಿ",
+      "english": "blue",
+      "transliteration": "neeli",
+      "audioPath": "audio/pronunciations/words/neeli.mp3",
+      "hexColor": "#0000FF",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_green",
+      "kannada": "ಹಸಿರು",
+      "english": "green",
+      "transliteration": "hasiru",
+      "audioPath": "audio/pronunciations/words/hasiru.mp3",
+      "hexColor": "#00FF00",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_yellow",
+      "kannada": "ಹಳದಿ",
+      "english": "yellow",
+      "transliteration": "haladi",
+      "audioPath": "audio/pronunciations/words/haladi.mp3",
+      "hexColor": "#FFFF00",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_white",
+      "kannada": "ಬಿಳಿ",
+      "english": "white",
+      "transliteration": "bili",
+      "audioPath": "audio/pronunciations/words/bili.mp3",
+      "hexColor": "#FFFFFF",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_black",
+      "kannada": "ಕಪ್ಪು",
+      "english": "black",
+      "transliteration": "kappu",
+      "audioPath": "audio/pronunciations/words/kappu.mp3",
+      "hexColor": "#000000",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_orange",
+      "kannada": "ಕಿತ್ತಳೆ",
+      "english": "orange",
+      "transliteration": "kittale",
+      "audioPath": "audio/pronunciations/words/kittale_color.mp3",
+      "hexColor": "#FFA500",
+      "difficulty": "beginner"
+    },
+    {
+      "id": "color_purple",
+      "kannada": "ನೇರಳೆ",
+      "english": "purple",
+      "transliteration": "nerale",
+      "audioPath": "audio/pronunciations/words/nerale.mp3",
+      "hexColor": "#800080",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "color_pink",
+      "kannada": "ಗುಲಾಬಿ",
+      "english": "pink",
+      "transliteration": "gulaabi",
+      "audioPath": "audio/pronunciations/words/gulaabi.mp3",
+      "hexColor": "#FFC0CB",
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "color_brown",
+      "kannada": "ಕಂದು",
+      "english": "brown",
+      "transliteration": "kandu",
+      "audioPath": "audio/pronunciations/words/kandu.mp3",
+      "hexColor": "#8B4513",
+      "difficulty": "intermediate"
+    }
+  ]
+}

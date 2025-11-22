@@ -11,6 +11,22 @@ import { BootScene } from '@scenes/BootScene';
 import { PreloadScene } from '@scenes/PreloadScene';
 import { MenuScene } from '@scenes/MenuScene';
 import { GameScene } from '@scenes/GameScene';
+import { GameHubScene } from './scenes/kannada/GameHubScene';
+import { ProfileScene } from './scenes/kannada/ProfileScene';
+import { SettingsScene } from './scenes/kannada/SettingsScene';
+import { AksharaPopScene } from './scenes/kannada/alphabet/AksharaPopScene';
+import { LetterTracingScene } from './scenes/kannada/alphabet/LetterTracingScene';
+import { AlphabetRainScene } from './scenes/kannada/alphabet/AlphabetRainScene';
+import { LetterMatchScene } from './scenes/kannada/alphabet/LetterMatchScene';
+import { AnimalSafariScene } from './scenes/kannada/vocabulary/AnimalSafariScene';
+import { FruitBasketScene } from './scenes/kannada/vocabulary/FruitBasketScene';
+import { ColorSplashScene } from './scenes/kannada/vocabulary/ColorSplashScene';
+import { NumberRocketsScene } from './scenes/kannada/vocabulary/NumberRocketsScene';
+import { VegetableGardenScene } from './scenes/kannada/vocabulary/VegetableGardenScene';
+import { BodyPartsRobotScene } from './scenes/kannada/vocabulary/BodyPartsRobotScene';
+import { FamilyTreeScene } from './scenes/kannada/vocabulary/FamilyTreeScene';
+import { LetterBridgeScene } from './scenes/kannada/words/LetterBridgeScene';
+import { SpellPictureScene } from './scenes/kannada/words/SpellPictureScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -203,7 +219,28 @@ function initGame() {
   // Create game configuration with scenes
   const config = {
     ...gameConfig,
-    scene: [BootScene, PreloadScene, MenuScene, GameScene]
+    scene: [
+      BootScene,
+      PreloadScene,
+      MenuScene,
+      GameScene,
+      GameHubScene,
+      ProfileScene,
+      SettingsScene,
+      AksharaPopScene,
+      LetterTracingScene,
+      AlphabetRainScene,
+      LetterMatchScene,
+      AnimalSafariScene,
+      FruitBasketScene,
+      ColorSplashScene,
+      NumberRocketsScene,
+      VegetableGardenScene,
+      BodyPartsRobotScene,
+      FamilyTreeScene,
+      LetterBridgeScene,
+      SpellPictureScene
+    ]
   };
 
   // Create game instance
