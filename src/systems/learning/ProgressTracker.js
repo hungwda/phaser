@@ -1,4 +1,4 @@
-import { EventBus } from '../../utils/EventBus.js';
+import EventBus from '../../utils/EventBus.js';
 
 /**
  * ProgressTracker - Tracks and persists student learning progress

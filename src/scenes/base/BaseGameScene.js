@@ -1,4 +1,4 @@
-import { EventBus } from '../../utils/EventBus.js';
+import EventBus from '../../utils/EventBus.js';
 
 /**
  * BaseGameScene - Base class for all educational games

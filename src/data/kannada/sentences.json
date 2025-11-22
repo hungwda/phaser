@@ -1,0 +1,140 @@
+{
+  "category": "simple_sentences",
+  "categoryKannada": "ಸರಳ ವಾಕ್ಯಗಳು",
+  "items": [
+    {
+      "id": "sent_1",
+      "sentence": "ನಾನು ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ",
+      "english": "I go to school",
+      "transliteration": "Naanu shaalegge hoogutteene",
+      "words": ["ನಾನು", "ಶಾಲೆಗೆ", "ಹೋಗುತ್ತೇನೆ"],
+      "audioPath": "audio/sentences/i_go_to_school.mp3",
+      "difficulty": "beginner",
+      "type": "statement"
+    },
+    {
+      "id": "sent_2",
+      "sentence": "ಇದು ನನ್ನ ಮನೆ",
+      "english": "This is my house",
+      "transliteration": "Idu nanna mane",
+      "words": ["ಇದು", "ನನ್ನ", "ಮನೆ"],
+      "audioPath": "audio/sentences/this_is_my_house.mp3",
+      "difficulty": "beginner",
+      "type": "statement"
+    },
+    {
+      "id": "sent_3",
+      "sentence": "ನಾಯಿ ಓಡುತ್ತಿದೆ",
+      "english": "The dog is running",
+      "transliteration": "Naayi ooduttide",
+      "words": ["ನಾಯಿ", "ಓಡುತ್ತಿದೆ"],
+      "audioPath": "audio/sentences/dog_is_running.mp3",
+      "difficulty": "beginner",
+      "type": "statement"
+    },
+    {
+      "id": "sent_4",
+      "sentence": "ಅಮ್ಮ ಅಡುಗೆ ಮಾಡುತ್ತಾಳೆ",
+      "english": "Mother is cooking",
+      "transliteration": "Amma aduge maaduttaale",
+      "words": ["ಅಮ್ಮ", "ಅಡುಗೆ", "ಮಾಡುತ್ತಾಳೆ"],
+      "audioPath": "audio/sentences/mother_is_cooking.mp3",
+      "difficulty": "beginner",
+      "type": "statement"
+    },
+    {
+      "id": "sent_5",
+      "sentence": "ನೀವು ಯಾರು?",
+      "english": "Who are you?",
+      "transliteration": "Neevu yaaru?",
+      "words": ["ನೀವು", "ಯಾರು?"],
+      "audioPath": "audio/sentences/who_are_you.mp3",
+      "difficulty": "beginner",
+      "type": "question"
+    },
+    {
+      "id": "sent_6",
+      "sentence": "ನಾನು ವಿದ್ಯಾರ್ಥಿ",
+      "english": "I am a student",
+      "transliteration": "Naanu vidyaarthi",
+      "words": ["ನಾನು", "ವಿದ್ಯಾರ್ಥಿ"],
+      "audioPath": "audio/sentences/i_am_student.mp3",
+      "difficulty": "beginner",
+      "type": "answer"
+    },
+    {
+      "id": "sent_7",
+      "sentence": "ನಿನ್ನ ಹೆಸರೇನು?",
+      "english": "What is your name?",
+      "transliteration": "Ninna hesarenu?",
+      "words": ["ನಿನ್ನ", "ಹೆಸರೇನು?"],
+      "audioPath": "audio/sentences/what_is_your_name.mp3",
+      "difficulty": "beginner",
+      "type": "question"
+    },
+    {
+      "id": "sent_8",
+      "sentence": "ನನ್ನ ಹೆಸರು ರಾಮ",
+      "english": "My name is Ram",
+      "transliteration": "Nanna hesaru Rama",
+      "words": ["ನನ್ನ", "ಹೆಸರು", "ರಾಮ"],
+      "audioPath": "audio/sentences/my_name_is_ram.mp3",
+      "difficulty": "beginner",
+      "type": "answer"
+    },
+    {
+      "id": "sent_9",
+      "sentence": "ಬೆಕ್ಕು ಹಾಲು ಕುಡಿಯುತ್ತಿದೆ",
+      "english": "The cat is drinking milk",
+      "transliteration": "Bekku haalu kudiyuttide",
+      "words": ["ಬೆಕ್ಕು", "ಹಾಲು", "ಕುಡಿಯುತ್ತಿದೆ"],
+      "audioPath": "audio/sentences/cat_drinking_milk.mp3",
+      "difficulty": "intermediate",
+      "type": "statement"
+    },
+    {
+      "id": "sent_10",
+      "sentence": "ಮಕ್ಕಳು ಆಟವಾಡುತ್ತಿದ್ದಾರೆ",
+      "english": "Children are playing",
+      "transliteration": "Makkalu aatavaaduttiddaare",
+      "words": ["ಮಕ್ಕಳು", "ಆಟವಾಡುತ್ತಿದ್ದಾರೆ"],
+      "audioPath": "audio/sentences/children_are_playing.mp3",
+      "difficulty": "intermediate",
+      "type": "statement"
+    },
+    {
+      "id": "sent_11",
+      "sentence": "ನೀನು ಎಲ್ಲಿ ಹೋಗುತ್ತೀಯಾ?",
+      "english": "Where are you going?",
+      "transliteration": "Neenu elli hoogutteeyaa?",
+      "words": ["ನೀನು", "ಎಲ್ಲಿ", "ಹೋಗುತ್ತೀಯಾ?"],
+      "audioPath": "audio/sentences/where_are_you_going.mp3",
+      "difficulty": "intermediate",
+      "type": "question"
+    },
+    {
+      "id": "sent_12",
+      "sentence": "ನಾನು ಮನೆಗೆ ಹೋಗುತ್ತಿದ್ದೇನೆ",
+      "english": "I am going home",
+      "transliteration": "Naanu manegge hooguttiddeene",
+      "words": ["ನಾನು", "ಮನೆಗೆ", "ಹೋಗುತ್ತಿದ್ದೇನೆ"],
+      "audioPath": "audio/sentences/i_am_going_home.mp3",
+      "difficulty": "intermediate",
+      "type": "answer"
+    }
+  ],
+  "questionAnswerPairs": [
+    {
+      "questionId": "sent_5",
+      "answerId": "sent_6"
+    },
+    {
+      "questionId": "sent_7",
+      "answerId": "sent_8"
+    },
+    {
+      "questionId": "sent_11",
+      "answerId": "sent_12"
+    }
+  ]
+}

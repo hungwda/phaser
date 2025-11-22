@@ -1,0 +1,138 @@
+{
+  "category": "simple_stories",
+  "categoryKannada": "ಕಥೆಗಳು",
+  "items": [
+    {
+      "id": "story_morning",
+      "title": "ಬೆಳಿಗ್ಗೆ",
+      "titleEnglish": "Morning Routine",
+      "sentences": [
+        {
+          "order": 1,
+          "text": "ನಾನು ಎದ್ದೆ",
+          "english": "I woke up",
+          "transliteration": "Naanu edde"
+        },
+        {
+          "order": 2,
+          "text": "ನಾನು ಹಲ್ಲು ಹಲ್ಲು ಮಾಡಿದೆ",
+          "english": "I brushed my teeth",
+          "transliteration": "Naanu hallu hallu maadide"
+        },
+        {
+          "order": 3,
+          "text": "ನಾನು ಸ್ನಾನ ಮಾಡಿದೆ",
+          "english": "I took a bath",
+          "transliteration": "Naanu snaana maadide"
+        },
+        {
+          "order": 4,
+          "text": "ನಾನು ಶಾಲೆಗೆ ಹೋದೆ",
+          "english": "I went to school",
+          "transliteration": "Naanu shaalegge hoode"
+        }
+      ],
+      "difficulty": "beginner",
+      "audioPath": "audio/stories/morning.mp3"
+    },
+    {
+      "id": "story_dog",
+      "title": "ನಾಯಿ ಮತ್ತು ಚೆಂಡು",
+      "titleEnglish": "Dog and Ball",
+      "sentences": [
+        {
+          "order": 1,
+          "text": "ನಾಯಿ ಆಡುತ್ತಿತ್ತು",
+          "english": "The dog was playing",
+          "transliteration": "Naayi aaduttittu"
+        },
+        {
+          "order": 2,
+          "text": "ಚೆಂಡು ಉರುಳಿತು",
+          "english": "The ball rolled",
+          "transliteration": "Chendu urulitu"
+        },
+        {
+          "order": 3,
+          "text": "ನಾಯಿ ಓಡಿತು",
+          "english": "The dog ran",
+          "transliteration": "Naayi ooditu"
+        },
+        {
+          "order": 4,
+          "text": "ನಾಯಿ ಚೆಂಡನ್ನು ಹಿಡಿದಿತು",
+          "english": "The dog caught the ball",
+          "transliteration": "Naayi chendunnu hididitu"
+        }
+      ],
+      "difficulty": "beginner",
+      "audioPath": "audio/stories/dog_ball.mp3"
+    },
+    {
+      "id": "story_garden",
+      "title": "ತೋಟದಲ್ಲಿ",
+      "titleEnglish": "In the Garden",
+      "sentences": [
+        {
+          "order": 1,
+          "text": "ಮಗು ತೋಟಕ್ಕೆ ಹೋಯಿತು",
+          "english": "The child went to the garden",
+          "transliteration": "Magu thotakke hoyitu"
+        },
+        {
+          "order": 2,
+          "text": "ಹೂವು ಕಂಡಿತು",
+          "english": "Saw a flower",
+          "transliteration": "Hoovu kanditu"
+        },
+        {
+          "order": 3,
+          "text": "ಚಿಟ್ಟೆ ಬಂತು",
+          "english": "A butterfly came",
+          "transliteration": "Chitte bantu"
+        },
+        {
+          "order": 4,
+          "text": "ಮಗು ಸಂತೋಷವಾಯಿತು",
+          "english": "The child was happy",
+          "transliteration": "Magu santhoshavaayitu"
+        }
+      ],
+      "difficulty": "intermediate",
+      "audioPath": "audio/stories/garden.mp3"
+    },
+    {
+      "id": "story_fruit",
+      "title": "ಹಣ್ಣಿನ ಕಥೆ",
+      "titleEnglish": "Fruit Story",
+      "sentences": [
+        {
+          "order": 1,
+          "text": "ಅಮ್ಮ ಮಾರುಕಟ್ಟೆಗೆ ಹೋದಳು",
+          "english": "Mother went to market",
+          "transliteration": "Amma maarukattege hoodalu"
+        },
+        {
+          "order": 2,
+          "text": "ಅವಳು ಹಣ್ಣುಗಳನ್ನು ಕೊಂಡಳು",
+          "english": "She bought fruits",
+          "transliteration": "Avalu hannugulannu kondalu"
+        },
+        {
+          "order": 3,
+          "text": "ಅವಳು ಮನೆಗೆ ಬಂದಳು",
+          "english": "She came home",
+          "transliteration": "Avalu manegge bandalu"
+        },
+        {
+          "order": 4,
+          "text": "ಎಲ್ಲರೂ ಹಣ್ಣು ತಿಂದರು",
+          "english": "Everyone ate fruit",
+          "transliteration": "Ellaruu hannu tindaru"
+        }
+      ],
+      "difficulty": "intermediate",
+      "audioPath": "audio/stories/fruit.mp3"
+    }
+  ]
+}

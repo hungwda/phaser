@@ -174,7 +174,12 @@ export class GameHubScene extends Phaser.Scene {
         nameKannada: 'ವಾಕ್ಯ ಆಟಗಳು',
         icon: '💬',
         color: 0x9C27B0,
-        games: []
+        games: [
+          { name: 'Sentence Train', scene: 'SentenceTrainScene' },
+          { name: 'Question Answer', scene: 'QuestionAnswerScene' },
+          { name: 'Action Verbs', scene: 'ActionVerbsScene' },
+          { name: 'Story Sequencer', scene: 'StorySequencerScene' }
+        ]
       }
     ];
 
