@@ -1,0 +1,65 @@
+{
+  "gameId": "akshara_pop",
+  "name": "Akshara Pop",
+  "nameKannada": "ಅಕ್ಷರ ಪಾಪ್",
+  "description": "Pop the bubbles with the correct Kannada letter!",
+  "descriptionKannada": "ಸರಿಯಾದ ಅಕ್ಷರದ ಬಬಲ್ ಗಳನ್ನು ಒಡೆಯಿರಿ!",
+  "category": "alphabet",
+  "icon": "images/games/icons/akshara-pop.png",
+  "difficulty": {
+    "beginner": {
+      "bubbleSpeed": 50,
+      "spawnInterval": 2000,
+      "lettersPerRound": 5,
+      "letters": ["vowels"],
+      "timeLimit": 60,
+      "targetScore": 50,
+      "lives": 5
+    },
+    "intermediate": {
+      "bubbleSpeed": 80,
+      "spawnInterval": 1500,
+      "lettersPerRound": 8,
+      "letters": ["vowels", "consonants:basic"],
+      "timeLimit": 45,
+      "targetScore": 100,
+      "lives": 3
+    },
+    "advanced": {
+      "bubbleSpeed": 120,
+      "spawnInterval": 1000,
+      "lettersPerRound": 12,
+      "letters": ["all"],
+      "timeLimit": 30,
+      "targetScore": 150,
+      "lives": 3
+    }
+  },
+  "scoring": {
+    "correctPop": 10,
+    "wrongPop": -5,
+    "timeBonus": 2,
+    "comboMultiplier": 1.5,
+    "perfectRound": 50
+  },
+  "assets": {
+    "background": "images/backgrounds/sky.png",
+    "bubble": "images/objects/bubble.png",
+    "popSound": "audio/sfx/pop.mp3",
+    "correctSound": "audio/sfx/correct.mp3",
+    "wrongSound": "audio/sfx/wrong.mp3",
+    "backgroundMusic": "audio/music/playful.mp3"
+  },
+  "instructions": [
+    "Listen to the letter pronunciation",
+    "Click the bubble with the correct letter",
+    "Be quick! Don't let wrong bubbles distract you",
+    "Build combos for bonus points"
+  ],
+  "instructionsKannada": [
+    "ಅಕ್ಷರದ ಉಚ್ಛಾರಣೆಯನ್ನು ಕೇಳಿ",
+    "ಸರಿಯಾದ ಅಕ್ಷರದ ಬಬಲ್ ಮೇಲೆ ಕ್ಲಿಕ್ ಮಾಡಿ",
+    "ತ್ವರಿತವಾಗಿರಿ! ತಪ್ಪು ಬಬಲ್ ಗಳು ನಿಮ್ಮನ್ನು ವಿಚಲಿತಗೊಳಿಸದಂತೆ",
+    "ಬೋನಸ್ ಪಾಯಿಂಟ್ಗಳಿಗಾಗಿ ಕಾಂಬೊಗಳನ್ನು ನಿರ್ಮಿಸಿ"
+  ]
+}

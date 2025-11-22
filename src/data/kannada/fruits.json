@@ -1,0 +1,86 @@
+{
+  "category": "fruits",
+  "categoryKannada": "ಹಣ್ಣುಗಳು",
+  "items": [
+    {
+      "id": "fruit_apple",
+      "kannada": "ಸೇಬು",
+      "english": "apple",
+      "transliteration": "sebu",
+      "audioPath": "audio/pronunciations/words/sebu.mp3",
+      "imagePath": "images/vocabulary/fruits/apple.png",
+      "difficulty": "beginner",
+      "color": "red"
+    },
+    {
+      "id": "fruit_banana",
+      "kannada": "ಬಾಳೆಹಣ್ಣು",
+      "english": "banana",
+      "transliteration": "baalehannu",
+      "audioPath": "audio/pronunciations/words/baalehannu.mp3",
+      "imagePath": "images/vocabulary/fruits/banana.png",
+      "difficulty": "beginner",
+      "color": "yellow"
+    },
+    {
+      "id": "fruit_mango",
+      "kannada": "ಮಾವಿನ ಹಣ್ಣು",
+      "english": "mango",
+      "transliteration": "maavina hannu",
+      "audioPath": "audio/pronunciations/words/maavina_hannu.mp3",
+      "imagePath": "images/vocabulary/fruits/mango.png",
+      "difficulty": "beginner",
+      "color": "yellow"
+    },
+    {
+      "id": "fruit_orange",
+      "kannada": "ಕಿತ್ತಳೆ",
+      "english": "orange",
+      "transliteration": "kittale",
+      "audioPath": "audio/pronunciations/words/kittale.mp3",
+      "imagePath": "images/vocabulary/fruits/orange.png",
+      "difficulty": "beginner",
+      "color": "orange"
+    },
+    {
+      "id": "fruit_grapes",
+      "kannada": "ದ್ರಾಕ್ಷಿ",
+      "english": "grapes",
+      "transliteration": "draakshi",
+      "audioPath": "audio/pronunciations/words/draakshi.mp3",
+      "imagePath": "images/vocabulary/fruits/grapes.png",
+      "difficulty": "intermediate",
+      "color": "purple"
+    },
+    {
+      "id": "fruit_watermelon",
+      "kannada": "ಕಲ್ಲಂಗಡಿ",
+      "english": "watermelon",
+      "transliteration": "kallangadi",
+      "audioPath": "audio/pronunciations/words/kallangadi.mp3",
+      "imagePath": "images/vocabulary/fruits/watermelon.png",
+      "difficulty": "intermediate",
+      "color": "green"
+    },
+    {
+      "id": "fruit_papaya",
+      "kannada": "ಪಪ್ಪಾಯಿ",
+      "english": "papaya",
+      "transliteration": "pappaayi",
+      "audioPath": "audio/pronunciations/words/pappaayi.mp3",
+      "imagePath": "images/vocabulary/fruits/papaya.png",
+      "difficulty": "beginner",
+      "color": "orange"
+    },
+    {
+      "id": "fruit_pineapple",
+      "kannada": "ಅನಾನಸ್",
+      "english": "pineapple",
+      "transliteration": "anaanas",
+      "audioPath": "audio/pronunciations/words/anaanas.mp3",
+      "imagePath": "images/vocabulary/fruits/pineapple.png",
+      "difficulty": "intermediate",
+      "color": "yellow"
+    }
+  ]
+}

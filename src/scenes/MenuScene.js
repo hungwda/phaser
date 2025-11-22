@@ -132,6 +132,14 @@ export class MenuScene extends Phaser.Scene {
       () => this.showOptions()
     );
 
+    // Kannada Learning button
+    this.createButton(
+      width / 2,
+      buttonY + buttonSpacing,
+      'LEARN KANNADA',
+      () => this.startKannadaLearning()
+    );
+
     // Credits button
     this.createButton(
       width / 2,
@@ -234,6 +242,20 @@ export class MenuScene extends Phaser.Scene {
 
     this.cameras.main.once('camerafadeoutcomplete', () => {
       this.scene.start(CONSTANTS.SCENES.GAME);
+    });
+  }
+
+  /**
+   * Start Kannada Learning Hub
+   */
+  startKannadaLearning() {
+    console.log('[MenuScene] Starting Kannada Learning Hub...');
+
+    // Fade out and transition
+    this.cameras.main.fadeOut(500, 0, 0, 0);
+
+    this.cameras.main.once('camerafadeoutcomplete', () => {
+      this.scene.start('GameHubScene');
     });
   }
 

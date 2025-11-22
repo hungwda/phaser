@@ -1,0 +1,106 @@
+{
+  "category": "animals",
+  "categoryKannada": "ಪ್ರಾಣಿಗಳು",
+  "items": [
+    {
+      "id": "animal_dog",
+      "kannada": "ನಾಯಿ",
+      "english": "dog",
+      "transliteration": "naayi",
+      "audioPath": "audio/pronunciations/words/naayi.mp3",
+      "imagePath": "images/vocabulary/animals/dog.png",
+      "difficulty": "beginner",
+      "tags": ["pet", "mammal"]
+    },
+    {
+      "id": "animal_cat",
+      "kannada": "ಬೆಕ್ಕು",
+      "english": "cat",
+      "transliteration": "bekku",
+      "audioPath": "audio/pronunciations/words/bekku.mp3",
+      "imagePath": "images/vocabulary/animals/cat.png",
+      "difficulty": "beginner",
+      "tags": ["pet", "mammal"]
+    },
+    {
+      "id": "animal_elephant",
+      "kannada": "ಆನೆ",
+      "english": "elephant",
+      "transliteration": "aane",
+      "audioPath": "audio/pronunciations/words/aane.mp3",
+      "imagePath": "images/vocabulary/animals/elephant.png",
+      "difficulty": "beginner",
+      "tags": ["wild", "mammal"]
+    },
+    {
+      "id": "animal_cow",
+      "kannada": "ಹಸು",
+      "english": "cow",
+      "transliteration": "hasu",
+      "audioPath": "audio/pronunciations/words/hasu.mp3",
+      "imagePath": "images/vocabulary/animals/cow.png",
+      "difficulty": "beginner",
+      "tags": ["farm", "mammal"]
+    },
+    {
+      "id": "animal_tiger",
+      "kannada": "ಹುಲಿ",
+      "english": "tiger",
+      "transliteration": "huli",
+      "audioPath": "audio/pronunciations/words/huli.mp3",
+      "imagePath": "images/vocabulary/animals/tiger.png",
+      "difficulty": "beginner",
+      "tags": ["wild", "mammal"]
+    },
+    {
+      "id": "animal_bird",
+      "kannada": "ಹಕ್ಕಿ",
+      "english": "bird",
+      "transliteration": "hakki",
+      "audioPath": "audio/pronunciations/words/hakki.mp3",
+      "imagePath": "images/vocabulary/animals/bird.png",
+      "difficulty": "beginner",
+      "tags": ["bird", "flying"]
+    },
+    {
+      "id": "animal_monkey",
+      "kannada": "ಕೋತಿ",
+      "english": "monkey",
+      "transliteration": "koti",
+      "audioPath": "audio/pronunciations/words/koti.mp3",
+      "imagePath": "images/vocabulary/animals/monkey.png",
+      "difficulty": "beginner",
+      "tags": ["wild", "mammal"]
+    },
+    {
+      "id": "animal_horse",
+      "kannada": "ಕುದುರೆ",
+      "english": "horse",
+      "transliteration": "kudure",
+      "audioPath": "audio/pronunciations/words/kudure.mp3",
+      "imagePath": "images/vocabulary/animals/horse.png",
+      "difficulty": "intermediate",
+      "tags": ["farm", "mammal"]
+    },
+    {
+      "id": "animal_rabbit",
+      "kannada": "ಮೊಲ",
+      "english": "rabbit",
+      "transliteration": "mola",
+      "audioPath": "audio/pronunciations/words/mola.mp3",
+      "imagePath": "images/vocabulary/animals/rabbit.png",
+      "difficulty": "beginner",
+      "tags": ["pet", "mammal"]
+    },
+    {
+      "id": "animal_fish",
+      "kannada": "ಮೀನು",
+      "english": "fish",
+      "transliteration": "meenu",
+      "audioPath": "audio/pronunciations/words/meenu.mp3",
+      "imagePath": "images/vocabulary/animals/fish.png",
+      "difficulty": "beginner",
+      "tags": ["water", "aquatic"]
+    }
+  ]
+}

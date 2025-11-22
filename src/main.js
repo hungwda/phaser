@@ -11,6 +11,8 @@ import { BootScene } from '@scenes/BootScene';
 import { PreloadScene } from '@scenes/PreloadScene';
 import { MenuScene } from '@scenes/MenuScene';
 import { GameScene } from '@scenes/GameScene';
+import { GameHubScene } from './scenes/kannada/GameHubScene';
+import { AksharaPopScene } from './scenes/kannada/alphabet/AksharaPopScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -203,7 +205,14 @@ function initGame() {
   // Create game configuration with scenes
   const config = {
     ...gameConfig,
-    scene: [BootScene, PreloadScene, MenuScene, GameScene]
+    scene: [
+      BootScene,
+      PreloadScene,
+      MenuScene,
+      GameScene,
+      GameHubScene,
+      AksharaPopScene
+    ]
   };
 
   // Create game instance
