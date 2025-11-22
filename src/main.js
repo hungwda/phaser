@@ -27,6 +27,10 @@ import { BodyPartsRobotScene } from './scenes/kannada/vocabulary/BodyPartsRobotS
 import { FamilyTreeScene } from './scenes/kannada/vocabulary/FamilyTreeScene';
 import { LetterBridgeScene } from './scenes/kannada/words/LetterBridgeScene';
 import { SpellPictureScene } from './scenes/kannada/words/SpellPictureScene';
+import { SentenceTrainScene } from './scenes/kannada/sentences/SentenceTrainScene';
+import { QuestionAnswerScene } from './scenes/kannada/sentences/QuestionAnswerScene';
+import { ActionVerbsScene } from './scenes/kannada/sentences/ActionVerbsScene';
+import { StorySequencerScene } from './scenes/kannada/sentences/StorySequencerScene';
 import { ContextManager } from '@utils/ContextManager';
 import { PerformancePlugin } from './plugins/PerformancePlugin';
 import { SaveLoadPlugin } from './plugins/SaveLoadPlugin';
@@ -239,7 +243,11 @@ function initGame() {
       BodyPartsRobotScene,
       FamilyTreeScene,
       LetterBridgeScene,
-      SpellPictureScene
+      SpellPictureScene,
+      SentenceTrainScene,
+      QuestionAnswerScene,
+      ActionVerbsScene,
+      StorySequencerScene
     ]
   };
 

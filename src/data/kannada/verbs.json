@@ -1,0 +1,116 @@
+{
+  "category": "action_verbs",
+  "categoryKannada": "ಕ್ರಿಯಾಪದಗಳು",
+  "items": [
+    {
+      "id": "verb_run",
+      "verb": "ಓಡು",
+      "english": "run",
+      "transliteration": "oodu",
+      "action": "run_in_place",
+      "audioPath": "audio/verbs/run.mp3",
+      "imagePath": "images/verbs/run.png",
+      "difficulty": "beginner",
+      "instruction": "Run in place!"
+    },
+    {
+      "id": "verb_jump",
+      "verb": "ಜಿಗಿ",
+      "english": "jump",
+      "transliteration": "jigi",
+      "action": "jump",
+      "audioPath": "audio/verbs/jump.mp3",
+      "imagePath": "images/verbs/jump.png",
+      "difficulty": "beginner",
+      "instruction": "Jump up!"
+    },
+    {
+      "id": "verb_clap",
+      "verb": "ಚಪ್ಪಾಳೆ",
+      "english": "clap",
+      "transliteration": "chappaale",
+      "action": "clap_hands",
+      "audioPath": "audio/verbs/clap.mp3",
+      "imagePath": "images/verbs/clap.png",
+      "difficulty": "beginner",
+      "instruction": "Clap your hands!"
+    },
+    {
+      "id": "verb_sit",
+      "verb": "ಕುಳಿತುಕೊಳ್ಳು",
+      "english": "sit",
+      "transliteration": "kulithukollu",
+      "action": "sit_down",
+      "audioPath": "audio/verbs/sit.mp3",
+      "imagePath": "images/verbs/sit.png",
+      "difficulty": "beginner",
+      "instruction": "Sit down!"
+    },
+    {
+      "id": "verb_stand",
+      "verb": "ನಿಲ್ಲು",
+      "english": "stand",
+      "transliteration": "nillu",
+      "action": "stand_up",
+      "audioPath": "audio/verbs/stand.mp3",
+      "imagePath": "images/verbs/stand.png",
+      "difficulty": "beginner",
+      "instruction": "Stand up!"
+    },
+    {
+      "id": "verb_dance",
+      "verb": "ನರ್ತಿಸು",
+      "english": "dance",
+      "transliteration": "nartisu",
+      "action": "dance",
+      "audioPath": "audio/verbs/dance.mp3",
+      "imagePath": "images/verbs/dance.png",
+      "difficulty": "intermediate",
+      "instruction": "Dance!"
+    },
+    {
+      "id": "verb_wave",
+      "verb": "ಕೈಬೀಸು",
+      "english": "wave",
+      "transliteration": "kaibeesu",
+      "action": "wave_hand",
+      "audioPath": "audio/verbs/wave.mp3",
+      "imagePath": "images/verbs/wave.png",
+      "difficulty": "beginner",
+      "instruction": "Wave your hand!"
+    },
+    {
+      "id": "verb_touch",
+      "verb": "ಮುಟ್ಟು",
+      "english": "touch",
+      "transliteration": "muttu",
+      "action": "touch_nose",
+      "audioPath": "audio/verbs/touch.mp3",
+      "imagePath": "images/verbs/touch.png",
+      "difficulty": "beginner",
+      "instruction": "Touch your nose!"
+    },
+    {
+      "id": "verb_turn",
+      "verb": "ತಿರುಗು",
+      "english": "turn",
+      "transliteration": "tirugu",
+      "action": "spin_around",
+      "audioPath": "audio/verbs/turn.mp3",
+      "imagePath": "images/verbs/turn.png",
+      "difficulty": "intermediate",
+      "instruction": "Turn around!"
+    },
+    {
+      "id": "verb_raise_hand",
+      "verb": "ಕೈಯೆತ್ತು",
+      "english": "raise hand",
+      "transliteration": "kaiyettu",
+      "action": "raise_hand",
+      "audioPath": "audio/verbs/raise_hand.mp3",
+      "imagePath": "images/verbs/raise_hand.png",
+      "difficulty": "beginner",
+      "instruction": "Raise your hand!"
+    }
+  ]
+}
