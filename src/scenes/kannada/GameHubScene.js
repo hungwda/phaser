@@ -140,7 +140,8 @@ export class GameHubScene extends Phaser.Scene {
         games: [
           { name: 'Akshara Pop', scene: 'AksharaPopScene' },
           { name: 'Letter Tracing', scene: 'LetterTracingScene' },
-          { name: 'Alphabet Rain', scene: 'AlphabetRainScene' }
+          { name: 'Alphabet Rain', scene: 'AlphabetRainScene' },
+          { name: 'Letter Match', scene: 'LetterMatchScene' }
         ]
       },
       {
@@ -150,7 +151,10 @@ export class GameHubScene extends Phaser.Scene {
         color: 0x2196F3,
         games: [
           { name: 'Animal Safari', scene: 'AnimalSafariScene' },
-          { name: 'Fruit Basket', scene: 'FruitBasketScene' }
+          { name: 'Fruit Basket', scene: 'FruitBasketScene' },
+          { name: 'Color Splash', scene: 'ColorSplashScene' },
+          { name: 'Number Rockets', scene: 'NumberRocketsScene' },
+          { name: 'Vegetable Garden', scene: 'VegetableGardenScene' }
         ]
       },
       {
