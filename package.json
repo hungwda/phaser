@@ -1,0 +1,30 @@
+{
+  "name": "phaser-robust-game",
+  "version": "1.0.0",
+  "description": "A robust Phaser game application with modern development practices",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src",
+    "format": "prettier --write src"
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "html5",
+    "webgl",
+    "canvas"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.1"
+  }
+}
