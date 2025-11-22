@@ -141,7 +141,8 @@ export class GameHubScene extends Phaser.Scene {
           { name: 'Akshara Pop', scene: 'AksharaPopScene' },
           { name: 'Letter Tracing', scene: 'LetterTracingScene' },
           { name: 'Alphabet Rain', scene: 'AlphabetRainScene' },
-          { name: 'Letter Match', scene: 'LetterMatchScene' }
+          { name: 'Letter Match', scene: 'LetterMatchScene' },
+          { name: 'Spinning Wheel', scene: 'SpinningWheelScene' }
         ]
       },
       {
@@ -166,7 +167,10 @@ export class GameHubScene extends Phaser.Scene {
         color: 0xFF9800,
         games: [
           { name: 'Letter Bridge', scene: 'LetterBridgeScene' },
-          { name: 'Spell Picture', scene: 'SpellPictureScene' }
+          { name: 'Spell Picture', scene: 'SpellPictureScene' },
+          { name: 'Word Factory', scene: 'WordFactoryScene' },
+          { name: 'Missing Letter', scene: 'MissingLetterScene' },
+          { name: 'Compound Words', scene: 'CompoundWordsScene' }
         ]
       },
       {
@@ -179,6 +183,42 @@ export class GameHubScene extends Phaser.Scene {
           { name: 'Question Answer', scene: 'QuestionAnswerScene' },
           { name: 'Action Verbs', scene: 'ActionVerbsScene' },
           { name: 'Story Sequencer', scene: 'StorySequencerScene' }
+        ]
+      },
+      {
+        name: 'Reading Games',
+        nameKannada: 'ಓದುವ ಆಟಗಳು',
+        icon: '📖',
+        color: 0xE91E63,
+        games: [
+          { name: 'Story Book', scene: 'StoryBookScene' },
+          { name: 'Reading Race', scene: 'ReadingRaceScene' },
+          { name: 'Rhyme Time', scene: 'RhymeTimeScene' },
+          { name: 'Dialogue Drama', scene: 'DialogueDramaScene' }
+        ]
+      },
+      {
+        name: 'Listening Games',
+        nameKannada: 'ಕೇಳುವ ಆಟಗಳು',
+        icon: '👂',
+        color: 0x00BCD4,
+        games: [
+          { name: 'Echo Game', scene: 'EchoGameScene' },
+          { name: 'Sound Safari', scene: 'SoundSafariScene' },
+          { name: 'Which Word', scene: 'WhichWordScene' },
+          { name: 'Tongue Twister', scene: 'TongueTwisterScene' }
+        ]
+      },
+      {
+        name: 'Cultural Games',
+        nameKannada: 'ಸಾಂಸ್ಕೃತಿಕ ಆಟಗಳು',
+        icon: '🎭',
+        color: 0xFF5722,
+        games: [
+          { name: 'Festival Fun', scene: 'FestivalFunScene' },
+          { name: 'Market Shopping', scene: 'MarketShoppingScene' },
+          { name: 'Classroom', scene: 'ClassroomScene' },
+          { name: 'Daily Routine', scene: 'DailyRoutineScene' }
         ]
       }
     ];
