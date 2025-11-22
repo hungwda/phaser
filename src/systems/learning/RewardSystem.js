@@ -1,4 +1,4 @@
-import { EventBus } from '../../utils/EventBus.js';
+import EventBus from '../../utils/EventBus.js';
 
 /**
  * RewardSystem - Handles achievements, badges, and rewards
